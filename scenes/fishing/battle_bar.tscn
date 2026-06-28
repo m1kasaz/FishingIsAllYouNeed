@@ -1,0 +1,75 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/fishing/battle_bar_controller.gd" id="1_bar"]
+
+[node name="BattleBar" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bar")
+
+[node name="CenterSafe" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterSafe"]
+layout_mode = 2
+custom_minimum_size = Vector2(236, 72)
+modulate = Color(1, 1, 1, 0.98)
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterSafe/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterSafe/PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="StatusLabel" type="Label" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+horizontal_alignment = 1
+text = "让鱼留在绿色区域"
+
+[node name="CatchProgressBar" type="ProgressBar" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2
+max_value = 100.0
+value = 50.0
+show_percentage = false
+
+[node name="Playfield" type="ColorRect" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(212, 26)
+layout_mode = 2
+color = Color(0.160784, 0.243137, 0.352941, 0.95)
+
+[node name="CaptureArea" type="ColorRect" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer/Playfield"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 4.0
+offset_right = 122.0
+offset_bottom = 20.0
+color = Color(0.54902, 0.796078, 0.560784, 0.82)
+
+[node name="FishMarker" type="ColorRect" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer/Playfield"]
+layout_mode = 0
+offset_left = 78.0
+offset_top = 8.0
+offset_right = 110.0
+offset_bottom = 18.0
+color = Color(0.968627, 0.858824, 0.537255, 1)
+
+[node name="PromptLabel" type="Label" parent="CenterSafe/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+horizontal_alignment = 1
+text = "按住鼠标左键"

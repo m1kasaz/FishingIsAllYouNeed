@@ -1,0 +1,138 @@
+[
+  {
+    "id": "crucian_carp",
+    "name_zh": "鲫鱼",
+    "name_en": "Crucian Carp",
+    "rarity": "common",
+    "min_weight": 0.2,
+    "max_weight": 1.6,
+    "base_value": 12,
+    "bite_rate_modifier": 1.1,
+    "battle_difficulty": 0.2,
+    "description": "最常见的淡水鱼，适合作为新手上手目标。",
+    "category": {
+      "order": "鲤形目",
+      "family": "鲤科",
+      "genus": "鲫属"
+    }
+  },
+  {
+    "id": "grass_carp",
+    "name_zh": "草鱼",
+    "name_en": "Grass Carp",
+    "rarity": "common",
+    "min_weight": 1.5,
+    "max_weight": 4.8,
+    "base_value": 18,
+    "bite_rate_modifier": 1.0,
+    "battle_difficulty": 0.3,
+    "description": "力气不小，但节奏平稳，适合练习进度条搏斗。",
+    "category": {
+      "order": "鲤形目",
+      "family": "鲤科",
+      "genus": "草鱼属"
+    }
+  },
+  {
+    "id": "bass",
+    "name_zh": "鲈鱼",
+    "name_en": "Bass",
+    "rarity": "rare",
+    "min_weight": 0.8,
+    "max_weight": 3.0,
+    "base_value": 55,
+    "bite_rate_modifier": 0.9,
+    "battle_difficulty": 0.45,
+    "description": "动作灵活，常常在关键时刻突然变向。",
+    "category": {
+      "order": "鲈形目",
+      "family": "真鲈科",
+      "genus": "花鲈属"
+    }
+  },
+  {
+    "id": "trout",
+    "name_zh": "鳟鱼",
+    "name_en": "Trout",
+    "rarity": "rare",
+    "min_weight": 0.5,
+    "max_weight": 2.4,
+    "base_value": 72,
+    "bite_rate_modifier": 0.85,
+    "battle_difficulty": 0.55,
+    "description": "在清澈湖水中游动迅捷，稍不留神就会逃脱。",
+    "category": {
+      "order": "鲑形目",
+      "family": "鲑科",
+      "genus": "鳟属"
+    }
+  },
+  {
+    "id": "pufferfish",
+    "name_zh": "河鲀",
+    "name_en": "Pufferfish",
+    "rarity": "epic",
+    "min_weight": 0.4,
+    "max_weight": 1.4,
+    "base_value": 180,
+    "bite_rate_modifier": 0.65,
+    "battle_difficulty": 0.72,
+    "description": "外表圆润，实际十分狡猾，搏斗节奏会明显加快。",
+    "category": {
+      "order": "鲀形目",
+      "family": "四齿鲀科",
+      "genus": "河鲀属"
+    }
+  },
+  {
+    "id": "tuna",
+    "name_zh": "金枪鱼",
+    "name_en": "Tuna",
+    "rarity": "epic",
+    "min_weight": 8.0,
+    "max_weight": 22.0,
+    "base_value": 240,
+    "bite_rate_modifier": 0.55,
+    "battle_difficulty": 0.8,
+    "description": "极具爆发力，适合测试高难度搏斗参数。",
+    "category": {
+      "order": "鲭形目",
+      "family": "鲭科",
+      "genus": "金枪鱼属"
+    }
+  },
+  {
+    "id": "arowana",
+    "name_zh": "龙鱼",
+    "name_en": "Arowana",
+    "rarity": "legendary",
+    "min_weight": 2.0,
+    "max_weight": 5.5,
+    "base_value": 680,
+    "bite_rate_modifier": 0.35,
+    "battle_difficulty": 0.9,
+    "description": "传说中能带来好运的鱼种，十分难以制服。",
+    "category": {
+      "order": "骨舌鱼目",
+      "family": "骨舌鱼科",
+      "genus": "骨舌鱼属"
+    }
+  },
+  {
+    "id": "coelacanth",
+    "name_zh": "腔棘鱼",
+    "name_en": "Coelacanth",
+    "rarity": "legendary",
+    "min_weight": 25.0,
+    "max_weight": 42.0,
+    "base_value": 1200,
+    "bite_rate_modifier": 0.25,
+    "battle_difficulty": 1.0,
+    "description": "古老而神秘的深水巨鱼，每一次上钩都像奇迹。",
+    "category": {
+      "order": "腔棘鱼目",
+      "family": "腔棘鱼科",
+      "genus": "拉蒂迈鱼属"
+    }
+  }
+]
