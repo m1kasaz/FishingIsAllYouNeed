@@ -1,0 +1,38 @@
+{
+  "bite_chance_per_second": 0.2,
+  "average_wait_seconds": 4.0,
+  "bite_window_seconds": 1.4,
+  "result_display_seconds": 0.0,
+  "result_confirm_delay_seconds": 0.45,
+  "battle_intro_seconds": 0.35,
+  "boat_move_speed": 54.0,
+  "boat_min_x": 56.0,
+  "boat_max_x": 236.0,
+  "battle_mode_weights": {
+    "bar": 50,
+    "qte": 50
+  },
+  "rarity_weights": {
+    "common": 50,
+    "rare": 30,
+    "epic": 15,
+    "legendary": 5
+  },
+  "battle_bar": {
+    "fill_speed": 0.5,
+    "drain_speed": 0.25,
+    "capture_area_height": 0.24,
+    "capture_area_lift_speed": 0.86,
+    "capture_area_fall_speed": 0.42,
+    "fish_base_speed": 0.32,
+    "min_duration_seconds": 2.4
+  },
+  "battle_qte": {
+    "pointer_speed": 1.55,
+    "success_zone_size": 0.24,
+    "great_zone_size": 0.09,
+    "success_target": 5,
+    "fail_floor": 0,
+    "min_duration_seconds": 2.2
+  }
+}
